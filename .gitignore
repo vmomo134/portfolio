@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Databases, backups and user uploads
+*.db
+*.sqlite3
+*.sql
+*.bak
+media/
+uploads/
+comprobantes/
+
+# Local tooling and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.log
+.DS_Store
