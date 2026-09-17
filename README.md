@@ -17,7 +17,7 @@ Las demos visuales son demostraciones de interfaz y flujo. No son sistemas produ
 
 | Proyecto | Demo | Repositorio | Evidencia |
 | --- | --- | --- | --- |
-| UTyPCB — plataforma institucional | `demos/utypcb/` | [python_version](https://github.com/vmomo134/python_version) | Capturas de revisión visual, pendientes de validación final antes de publicar |
+| UTyPCB — plataforma institucional | `demos/utypcb/` | [institutional-management-platform-django](https://github.com/vmomo134/institutional-management-platform-django) | Capturas de revisión visual, pendientes de validación final antes de publicar |
 | Sistema de control de pagos | `demos/pagos/` | [school-payments-control-flask](https://github.com/vmomo134/school-payments-control-flask) | Demo segura con datos ficticios; no se publican comprobantes reales |
 | CENTINELA — monitoreo de incendios | `demos/centinela/` | [centinela-wildfire-monitoring](https://github.com/vmomo134/centinela-wildfire-monitoring) | Capturas reales públicas en `assets/capturas/` |
 | Fábrica de Reels | `demos/reels/` | [automated-reels-pipeline-python](https://github.com/vmomo134/automated-reels-pipeline-python) | Frames reales de salida, pendientes de validación final antes de publicar |
