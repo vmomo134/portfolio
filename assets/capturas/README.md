@@ -1,17 +1,15 @@
 # Evidencia visual del portafolio
 
-Esta carpeta contiene imágenes seleccionadas para explicar los proyectos sin publicar información privada.
+## Capturas seguras de demos
 
-## Evidencia disponible
+Las carpetas `utypcb/`, `pagos/`, `reels/` y `centinela/` contienen recortes de las demos visuales con datos ficticios.
 
-- `utypcb/demo-dashboard.png`: captura de la demo visual segura con datos ficticios.
-- `reels/demo-pipeline.png`: captura de la demo visual segura con datos ficticios.
-- `pagos/demo-control-pagos.png`: captura de la demo visual segura; no representa datos de producción.
-- `centinela-demo.png`: captura de la demo visual segura; además, CENTINELA conserva capturas reales públicas seleccionadas.
-- Las capturas originales de UTyPCB y los frames de producción de Reels quedan fuera de la publicación hasta completar una revisión visual de anonimización.
+## Capturas reales en revisión
 
-## Regla para agregar una captura
+- `utypcb-real/`: vistas reales de inicio, calificaciones, horario, pagos y pantallas móviles.
+- `reels-real/`: frames reales de una ejecución del pipeline de producción.
+- La galería de CENTINELA conserva las capturas reales públicas que ya estaban seleccionadas.
 
-Una imagen solo debe publicarse si no contiene nombres reales, correos, teléfonos, matrículas, comprobantes, rutas locales, tokens, sesiones activas o información institucional no autorizada.
+Antes de hacer `git push`, revisa manualmente `utypcb-real/`. Si contiene nombres, correos, matrículas o información institucional no autorizada, elimina esas imágenes y conserva únicamente la demo segura.
 
-Cuando una captura no pueda anonimizarse con seguridad, se debe reemplazar por una demo visual con datos ficticios.
+No se publican comprobantes reales del sistema de pagos: los archivos locales de comprobantes se consideran sensibles.
