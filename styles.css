@@ -84,3 +84,30 @@ h1 { font-size: clamp(3.5rem, 8vw, 7.8rem); font-weight: 700; letter-spacing: -.
 .reveal-delay-2 { transition-delay: .16s; }
 @media (max-width: 800px) { .site-header { padding: 0 20px; } nav { display: none; } .hero, .projects-section, .approach-section, .contact-section { padding-left: 20px; padding-right: 20px; } .hero { display: block; min-height: auto; padding-bottom: 90px; padding-top: 78px; } h1 { font-size: clamp(3.35rem, 17vw, 5.4rem); } .hero-note { margin-top: 72px; } .section-heading, .approach-section { display: block; } .section-heading h2 { margin-bottom: 24px; } .section-heading > p:last-child { max-width: 460px; } .projects-grid { display: block; } .project-card, .project-card-wide { display: grid; grid-template-columns: 1fr; grid-template-rows: 210px 1fr; margin-bottom: 20px; min-height: 0; } .project-card-wide { min-height: 0; } .project-body { min-height: 260px; } .approach-list { margin-top: 60px; } .contact-card { padding: 36px 26px; } .site-footer { align-items: flex-start; flex-direction: column; gap: 12px; padding-left: 20px; padding-right: 20px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } .button { transition: none; } }
+
+/* Visual evidence: safe local demo captures, not production data. */
+.project-visual {
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-visual::after {
+  content: "DEMO VISUAL · DATOS FICTICIOS";
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  padding: .35rem .55rem;
+  border: 1px solid rgba(255,255,255,.35);
+  background: rgba(10, 16, 24, .78);
+  color: #fff;
+  font-size: .62rem;
+  letter-spacing: .12em;
+  z-index: 2;
+}
+
+.visual-utypcb { background-image: linear-gradient(180deg, rgba(9,18,30,.2), rgba(9,18,30,.8)), url('assets/capturas/utypcb/demo-dashboard.png'); }
+.visual-payments { background-image: linear-gradient(180deg, rgba(9,18,30,.2), rgba(9,18,30,.8)), url('assets/capturas/pagos/demo-control-pagos.png'); }
+.visual-centinela { background-image: linear-gradient(180deg, rgba(9,18,30,.15), rgba(9,18,30,.78)), url('assets/capturas/mapa-zonas.png'); }
+.visual-reels { background-image: linear-gradient(180deg, rgba(9,18,30,.15), rgba(9,18,30,.8)), url('assets/capturas/reels/demo-pipeline.png'); }
