@@ -17,8 +17,8 @@ Las demos visuales son demostraciones de interfaz y flujo. No son sistemas produ
 
 | Proyecto | Demo | Repositorio | Evidencia |
 | --- | --- | --- | --- |
-| UTyPCB — plataforma institucional | `demos/utypcb/` | [institutional-management-platform-django](https://github.com/vmomo134/institutional-management-platform-django) | 12 capturas reales en `assets/capturas/utypcb-real/`: portal del alumno, sitio público, transparencia, administración de Django y centro docente; datos de una base SQLite de demo |
-| Sistema de control de pagos | `demos/pagos/` | [school-payments-control-flask](https://github.com/vmomo134/school-payments-control-flask) | 9 capturas reales en `assets/capturas/pagos-real/`: acceso, panel del director con gráficas, morosidad, gestión de pagos, recibo con folio y bitácora; 120 alumnos y 1 200 pagos ficticios en SQLite aislado |
+| UTyPCB — plataforma institucional | `demos/utypcb/` | Privado; código disponible bajo solicitud | 12 capturas reales en `assets/capturas/utypcb-real/`: portal del alumno, sitio público, transparencia, administración de Django y centro docente; datos de una base SQLite de demo |
+| Sistema de control de pagos | `demos/pagos/` | Privado; código disponible bajo solicitud | 9 capturas reales en `assets/capturas/pagos-real/`: acceso, panel del director con gráficas, morosidad, gestión de pagos, recibo con folio y bitácora; 120 alumnos y 1 200 pagos ficticios en SQLite aislado |
 | CENTINELA — monitoreo de incendios | `demos/centinela/` | [centinela-wildfire-monitoring](https://github.com/vmomo134/centinela-wildfire-monitoring) | 5 capturas reales en `assets/capturas/centinela-real/`: mapa y alertas, fuentes satelitales, zonas, bitácora y vista móvil |
 | Fábrica de Reels | `demos/reels/` | [automated-reels-pipeline-python](https://github.com/vmomo134/automated-reels-pipeline-python) | Frames reales en `assets/capturas/reels-real/` de una ejecución real del pipeline |
 
