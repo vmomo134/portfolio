@@ -107,9 +107,19 @@ h1 { font-size: clamp(3.5rem, 8vw, 7.8rem); font-weight: 700; letter-spacing: -.
   z-index: 2;
 }
 
-.visual-utypcb { background-image: linear-gradient(180deg, rgba(9,18,30,.2), rgba(9,18,30,.8)), url('assets/capturas/utypcb-real/12-centro-docente-mis-cursos.png'); }
-.visual-payments { background-image: linear-gradient(180deg, rgba(9,18,30,.2), rgba(9,18,30,.8)), url('assets/capturas/pagos-real/02-panel-director.png'); }
-.visual-centinela { background-image: linear-gradient(180deg, rgba(9,18,30,.15), rgba(9,18,30,.78)), url('assets/capturas/centinela-real/01-mapa-alertas.png'); }
-.visual-reels { background-image: linear-gradient(180deg, rgba(9,18,30,.15), rgba(9,18,30,.8)), url('assets/capturas/reels-real/frame_45pct.png'); }
+.visual-utypcb { background-image: url('assets/capturas/utypcb-real/12-centro-docente-mis-cursos.png'); }
+.visual-payments { background-image: url('assets/capturas/pagos-real/02-panel-director.png'); }
+.visual-centinela { background-image: url('assets/capturas/centinela-real/01-mapa-alertas.png'); }
+.visual-reels { background-image: url('assets/capturas/reels-real/montaje.jpg'); }
 .project-link-live { color: var(--coral, #f47b5d); font-weight: 700; }
 .project-link-live:hover { color: var(--mint, #a8ddd0); }
+
+/* Miniaturas con captura real: etiquetas legibles y sin adornos heredados. */
+.project-card .project-visual { background-color: #0d151c; background-position: top left; background-size: cover; box-shadow: inset 0 -70px 60px -50px rgba(9, 18, 30, .6); padding: 16px; }
+.project-card .visual-reels { background-position: center; }
+.project-card .project-visual::before { content: none; }
+.project-card .project-visual::after { border: 1px solid rgba(255, 255, 255, .3); bottom: 14px; left: 14px; right: auto; top: auto; }
+.project-card .project-visual span,
+.project-card .visual-payments span { background: rgba(10, 16, 24, .84); color: #fff; font-family: Consolas, monospace; font-size: .78rem; font-weight: 700; letter-spacing: .1em; line-height: 1.2; padding: 6px 10px; text-transform: uppercase; }
+.project-card .project-visual i { background: rgba(10, 16, 24, .84); color: #d6e2e8; padding: 6px 10px; }
+@media (max-width: 1100px) { .project-card .project-visual i { display: none; } }
