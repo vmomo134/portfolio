@@ -26,10 +26,10 @@
 <section id="interactivo"><div class="screen-shell"><aside class="screen-nav"><strong>PAGOS<span>.</span></strong><button class="active" data-view="control">Control</button><button data-view="alumnos">Alumnos</button><button data-view="registro">Registrar pago</button><button data-view="recibo">Recibo PDF</button></aside><section class="screen-content"><div class="screen-top"><h3>Control de pagos</h3><small>Director · entorno demo</small></div><div class="screen-view active" data-screen="control"><div class="mini-grid"><div class="mini-card accent"><span class="panel-label">Ingresos</span><strong>$184,520</strong><p>Ciclo actual</p></div><div class="mini-card mint"><span class="panel-label">Pagos</span><strong>184</strong><p>Este mes</p></div><div class="mini-card yellow"><span class="panel-label">Pendientes</span><strong>18</strong><p>Requieren seguimiento</p></div></div><div class="screen-box" style="margin-top:14px"><h4>Movimientos recientes</h4><table class="screen-table"><tr><th>Folio</th><th>Alumno</th><th>Concepto</th><th>Estado</th></tr><tr><td>000184</td><td>Alumno Demo 01</td><td>Mensualidad</td><td><span class="badge">Pagado</span></td></tr><tr><td>000183</td><td>Alumno Demo 02</td><td>Inscripción</td><td><span class="badge">Pagado</span></td></tr><tr><td>000182</td><td>Alumno Demo 03</td><td>Libros</td><td><span class="badge warn">Pendiente</span></td></tr></table></div></div><div class="screen-view" data-screen="alumnos"><div class="screen-box"><span class="panel-label">Consulta de alumnos</span><h4>Directorio demo</h4><table class="screen-table"><tr><th>Clave</th><th>Alumno</th><th>Nivel</th><th>Estado</th></tr><tr><td>ALU-001</td><td>Alumno Demo 01</td><td>Secundaria</td><td><span class="badge">Activo</span></td></tr><tr><td>ALU-002</td><td>Alumno Demo 02</td><td>Preparatoria</td><td><span class="badge">Activo</span></td></tr><tr><td>ALU-003</td><td>Alumno Demo 03</td><td>Secundaria</td><td><span class="badge warn">Adeudo</span></td></tr></table></div></div><div class="screen-view" data-screen="registro"><div class="screen-box"><span class="panel-label">Nuevo movimiento</span><h4>Registrar pago</h4><div class="form-sim"><div class="field">Alumno Demo 03</div><div class="field">Ciclo 2026-2027</div><div class="field">Mensualidad</div><div class="field">Método de pago</div><div class="field full">Monto: $1,250.00</div></div><button class="demo-button" style="margin-top:14px" onclick="alert('Demo visual: el pago no se guarda.')">Confirmar pago simulado</button></div></div><div class="screen-view" data-screen="recibo"><div class="screen-columns"><div class="screen-box"><span class="panel-label">Vista previa</span><h4>Recibo de pago</h4><div class="receipt"><h4>RECIBO · DEMO</h4><p>Folio: 000184</p><p>Alumno: Alumno Demo 01</p><p>Concepto: Mensualidad</p><p class="total">Total: $1,250.00</p></div></div><div class="screen-box"><h4>Acciones</h4><p class="muted">En el sistema real esta vista puede imprimirse o convertirse en PDF.</p><button class="demo-button secondary" onclick="alert('Demo visual: no se descarga ningún PDF.')">Imprimir vista</button></div></div></div></section></div></section><section id="vistas-demo" class="evidence-section">
   <div class="evidence-heading"><span class="panel-label">Galería de vistas</span><h2>Flujo de control de pagos</h2><p>Recorrido visual de consulta, registro y recibos usando información completamente ficticia.</p></div>
   <figure class="gallery gallery-wide">
-    <div><img src="../../assets/capturas/pagos/01-control.png" alt="Panel de control de pagos"><figcaption>Panel de control</figcaption></div>
-    <div><img src="../../assets/capturas/pagos/02-alumnos.png" alt="Directorio demo de alumnos"><figcaption>Directorio de alumnos</figcaption></div>
-    <div><img src="../../assets/capturas/pagos/03-registrar-pago.png" alt="Formulario demo para registrar pago"><figcaption>Registrar pago</figcaption></div>
-    <div><img src="../../assets/capturas/pagos/04-recibo-demo.png" alt="Vista demo de recibo"><figcaption>Recibo PDF simulado</figcaption></div>
+    <div><img src="../../assets/capturas/pagos/01-control.png" loading="lazy" decoding="async" alt="Panel de control de pagos"><figcaption>Panel de control</figcaption></div>
+    <div><img src="../../assets/capturas/pagos/02-alumnos.png" loading="lazy" decoding="async" alt="Directorio demo de alumnos"><figcaption>Directorio de alumnos</figcaption></div>
+    <div><img src="../../assets/capturas/pagos/03-registrar-pago.png" loading="lazy" decoding="async" alt="Formulario demo para registrar pago"><figcaption>Registrar pago</figcaption></div>
+    <div><img src="../../assets/capturas/pagos/04-recibo-demo.png" loading="lazy" decoding="async" alt="Vista demo de recibo"><figcaption>Recibo PDF simulado</figcaption></div>
   </figure>
 </section>
 
@@ -37,21 +37,21 @@
   <div class="evidence-heading"><span class="panel-label">Evidencia del proyecto</span><h2>Flask, SQLAlchemy y ReportLab en ejecución</h2><p>Capturas tomadas corriendo el backend real sobre una base de datos aislada con datos de prueba: 120 alumnos, 1&nbsp;200 pagos y sus recibos.</p></div>
   <p class="evidence-note">Acceso institucional y panel del director, con gráficas de distribución y tendencia:</p>
   <figure class="gallery gallery-wide">
-    <div><img src="../../assets/capturas/pagos-real/01-login.png" alt="Pantalla real de acceso al sistema"><figcaption>Acceso institucional</figcaption></div>
-    <div><img src="../../assets/capturas/pagos-real/02-panel-director.png" alt="Panel real del director con KPIs"><figcaption>Panel del director</figcaption></div>
-    <div><img src="../../assets/capturas/pagos-real/03-panel-director-graficas.png" alt="Gráficas reales de distribución y tendencia de recaudación"><figcaption>Distribución y tendencia</figcaption></div>
-    <div><img src="../../assets/capturas/pagos-real/04-morosidad.png" alt="Reporte real de morosidad con filtros"><figcaption>Reporte de morosidad</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/01-login.png" loading="lazy" decoding="async" alt="Pantalla real de acceso al sistema"><figcaption>Acceso institucional</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/02-panel-director.png" loading="lazy" decoding="async" alt="Panel real del director con KPIs"><figcaption>Panel del director</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/03-panel-director-graficas.png" loading="lazy" decoding="async" alt="Gráficas reales de distribución y tendencia de recaudación"><figcaption>Distribución y tendencia</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/04-morosidad.png" loading="lazy" decoding="async" alt="Reporte real de morosidad con filtros"><figcaption>Reporte de morosidad</figcaption></div>
   </figure>
   <p class="evidence-note">Gestión de pagos, registro de un pago nuevo y el recibo que genera:</p>
   <figure class="gallery gallery-wide">
-    <div><img src="../../assets/capturas/pagos-real/06-gestion-pagos.png" alt="Listado real de alumnos con adeudo"><figcaption>Gestión de pagos</figcaption></div>
-    <div><img src="../../assets/capturas/pagos-real/07-control-pagos.png" alt="Control real de pagos registrados"><figcaption>Control de pagos</figcaption></div>
-    <div><img src="../../assets/capturas/pagos-real/08-registrar-pago.png" alt="Formulario real para registrar un pago"><figcaption>Registrar pago</figcaption></div>
-    <div><img src="../../assets/capturas/pagos-real/09-recibo.png" alt="Recibo real generado con folio y desglose"><figcaption>Recibo con folio</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/06-gestion-pagos.png" loading="lazy" decoding="async" alt="Listado real de alumnos con adeudo"><figcaption>Gestión de pagos</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/07-control-pagos.png" loading="lazy" decoding="async" alt="Control real de pagos registrados"><figcaption>Control de pagos</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/08-registrar-pago.png" loading="lazy" decoding="async" alt="Formulario real para registrar un pago"><figcaption>Registrar pago</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/09-recibo.png" loading="lazy" decoding="async" alt="Recibo real generado con folio y desglose"><figcaption>Recibo con folio</figcaption></div>
   </figure>
   <p class="evidence-note">Bitácora de operaciones, para trazabilidad administrativa:</p>
   <figure class="gallery gallery-wide">
-    <div><img src="../../assets/capturas/pagos-real/05-bitacora.png" alt="Bitácora real de acciones administrativas"><figcaption>Bitácora de acciones</figcaption></div>
+    <div><img src="../../assets/capturas/pagos-real/05-bitacora.png" loading="lazy" decoding="async" alt="Bitácora real de acciones administrativas"><figcaption>Bitácora de acciones</figcaption></div>
   </figure>
 </section>
 
