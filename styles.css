@@ -72,9 +72,11 @@ h1 { font-size: clamp(3.5rem, 8vw, 7.8rem); font-weight: 700; letter-spacing: -.
 .contact-card { background: var(--accent); color: var(--ink); padding: 64px; }
 .contact-card .eyebrow { color: var(--ink); opacity: .65; }
 .contact-card h2 { max-width: 680px; }
-.contact-card > p:not(.eyebrow) { max-width: 420px; }
+.contact-card > p:not(.eyebrow) { margin-top: 22px; max-width: 560px; }
 .contact-card .button-primary { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 .contact-card .button-primary:hover { background: var(--ink-soft); }
+.contact-card .button-quiet { border-color: rgba(16, 24, 32, .55); color: var(--ink); }
+.contact-card .button-quiet:hover { background: rgba(16, 24, 32, .1); }
 .contact-placeholder { font-family: Consolas, monospace; font-size: .7rem; max-width: 220px; opacity: .7; }
 .site-footer { color: var(--muted); display: flex; font-family: Consolas, monospace; font-size: .68rem; justify-content: space-between; margin: 0 auto; max-width: 1240px; padding: 30px 32px 46px; text-transform: uppercase; }
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
