@@ -77,6 +77,37 @@ body {
 .real-evidence .evidence-heading h2::after { color: var(--yellow); content: "  /  REAL"; font: 11px Consolas, monospace; letter-spacing: .14em; vertical-align: middle; }
 .reel-output-gallery img { aspect-ratio: 9 / 16; object-fit: cover; }
 
+/* Índice de secciones + bloques de resumen/alcance añadidos a cada demo. */
+section[id] { scroll-margin-top: 90px; }
+
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+  margin-top: 40px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.toc a { align-items: baseline; color: var(--muted); display: flex; font-size: .86rem; gap: 8px; transition: color .2s; }
+.toc a:hover { color: var(--paper); }
+.toc a span { color: var(--coral); font: 11px Consolas, monospace; }
+
+.brief-section { margin-top: 48px; max-width: 68ch; }
+.brief-section p { color: var(--muted); font-size: 1.03rem; line-height: 1.7; }
+.brief-section p + p { margin-top: 14px; }
+
+.scale-section { margin-top: 56px; }
+.scale-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(148px, 1fr)); margin-top: 22px; }
+.scale-grid .stat { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-md); padding: 18px; }
+.scale-grid .stat strong { display: block; font-size: 1.9rem; font-variant-numeric: tabular-nums; letter-spacing: -.05em; }
+.scale-grid .stat small { color: var(--muted); font-size: .78rem; }
+
+.evidence-note { color: var(--muted); font-size: .85rem; margin: 26px 0 10px; }
+.evidence-note:first-of-type { margin-top: 18px; }
+
+@media (max-width: 800px) { .toc { gap: 8px 20px; } }
+
 @keyframes view-enter { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; scroll-behavior: auto !important; transition-duration: .01ms !important; } }
 @media (max-width: 800px) { .demo-back { font-size: .72rem; padding: 7px 10px; } .screen-top { align-items: flex-start; flex-direction: column; } .screen-nav { padding: 12px; } }

@@ -6,10 +6,10 @@ Las carpetas `utypcb/`, `pagos/`, `reels/` y `centinela/` contienen recortes de 
 
 ## Capturas reales en revisión
 
-- `utypcb-real/`: vistas reales de inicio, calificaciones, horario, pagos y pantallas móviles.
+- `utypcb-real/`: vistas reales del portal del alumno (escritorio y móvil), sitio público, transparencia, administración y centro docente, tomadas sobre una base SQLite de demostración con alumno y docentes ficticios.
 - `reels-real/`: frames reales de una ejecución del pipeline de producción.
 - La galería de CENTINELA conserva las capturas reales públicas que ya estaban seleccionadas.
 
-Antes de hacer `git push`, revisa manualmente `utypcb-real/`. Si contiene nombres, correos, matrículas o información institucional no autorizada, elimina esas imágenes y conserva únicamente la demo segura.
+Las capturas de `utypcb-real/` se regeneraron con datos ficticios (alumno "Alumno Prueba", docente "Elena Martínez Soto"). Antes de agregar capturas nuevas, confirma que no muestren nombres, correos ni matrículas reales.
 
 No se publican comprobantes reales del sistema de pagos: los archivos locales de comprobantes se consideran sensibles.
