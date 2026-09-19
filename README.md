@@ -36,7 +36,7 @@ La copia pública de `SistemaControlPagos` usa variables de entorno para la conf
 ## Contacto
 
 - GitHub: [vmomo134](https://github.com/vmomo134)
-- LinkedIn: [Oliver Molina de La O](https://www.linkedin.com/in/oliver-molina-a45b81266)
+- LinkedIn: [Oliver Molina de La O](https://www.linkedin.com/in/oliver-molina-de-la-o-a45b81266)
 
 ## Publicación del sitio
 
